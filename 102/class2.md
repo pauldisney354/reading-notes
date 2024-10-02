@@ -1,33 +1,41 @@
-# The Coder's Computer
+# Learning Markdown
 
-## What are four important features to look for in a text editor?
+What is Markdown?
 
-The four important features to look for in a text editor are:
-1. Code completion
-2. Syntax Highlighting
-3. A nice variety of themes such as reducing eye strain.
-4. The ability to choose from a selection of extensions.
+Markdown is a language that uses symbols that you have to add around words instead of using keyboard inputs to change the format and appearance of text.
 
-## What do the following commands do?
+Why do we use Markdown?
 
-pwd: Print Working Directory. This shows where we are currently.
+Markdown is used because it is a universal editing and creating tool that can be used right away without the need for subscriptions or making an account. You can start using it as long as you know the correct placement of symbols you need to make the changes.
 
-ls: List the contents of a directory.
+What symbol can make a heading in Markdown?
 
-cd: Change Directories. This tells the system to move to another directory.
+The # symbol is used to make a heading in Markdown, but it must be at the  beginning of your line of text and a space directly after.
 
-mkdir: is used to create new directories(also called folders) in your file system.
+How many do you need to create the largest heading?
 
-touch: Creates a blank file.
+# You need one # to create the largest heading. Example: # Heading 
 
-## Can you explain what is happening in the following scenario if these commands and arguments are entered into the command line? 
+How many do you need to create the smallest heading?
 
-cd projects: The cd propmpt tells the system to move from one directory to another while projects is the name of the directory you want to go to.
+###### You need six # to create the smallest heading. Example : ###### Heading 
 
-mkdir new-project: The mkdir prompt makes a new folder while new project is the name of the folder.
+When making text **bold** or *italicized* for emphasis, it is best practice to use which symbol?
 
-touch new-project/newfile.md: the touch prompt creates the new file, newproject is the directory, newfile.md is the name of the file with .md indicates the extension being a markdown file.
+When making text **bold** or *italicized* for emphasis, it is ***best practice*** to use ** ** to bold a word and * * to italicize.
+ 
+How do you create a link with Markdown?
 
-cd ..: This propmt helps you navigate to the previous directory.
+To create a link in Markdown, you need to enclose the link text in brackets (e.g., [Google]) and then follow it immediately with the URL in parentheses (e.g., (https://www.google.com/)).
 
-ls projects/new-project: ls lists the contents of a directory. projects/new projects will list the files within new projects within the projects folder.
+An example would be my favorite search engine is [Google](https://www.google.com/).
+
+What are the three symbols you can use to create an unordered (bulleted) list with Markdown?
+
+The three symbols you need to use to create an unordered bulleted list are dashes (-), asterisks (*), or plus signs (+) in front of line items.
+The best practice is to use one of the symbols and stick with it to make the list.
+An example using dashes in front of line items would look like:
+
+- First Item
+- Second Item
+- Third Item
