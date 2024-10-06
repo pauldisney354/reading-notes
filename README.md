@@ -1,6 +1,10 @@
-# reading-notes
-## 102
-## Code 102 Reading Notes
+# Goodwill | Code Fellows
+
+Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! This website is a collection of reading assingments to look back on while I move forward through the course.
+
+## Table of Contents
+### 102
+#### Code 102 Reading Notes
 - [Lab:01b Learning Markdown](102/class1.md)
 - [Read:01 Learning Markdown](102/class2.md)
 - [Read:02 The Coder's Computer](102/class3.md)
@@ -9,8 +13,9 @@
 - [Read:05 - Design web pages with CSS](102/class6.md)
 - [class7](102/class7.md)
 - [class8](102/class8.md)
-## 201
-## Code 102 Reading Notes
+
+### 201
+#### Code 201 Reading Notes
 - [class1](201/class1.md)
 - [class2](201/class2.md)
 - [class3](201/class3.md)
