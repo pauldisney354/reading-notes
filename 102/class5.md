@@ -19,4 +19,4 @@ The three main parts of an HTML element are:
 
 ## What is a semantic element?
 
-- A semantic element is an element that clearly describes its meaning to both the browser and the developer. An example would be <header>. It tells the browser and developers that it contains introductory content.
+- A semantic element is an element that clearly describes its meaning to both the browser and the developer. An example would be <header>. It tells the browser and developers that it contains introductory content or navigation links.
