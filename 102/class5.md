@@ -11,7 +11,7 @@ The three main parts of an HTML element are:
 
 1. The opening tag
 2. The closing tag
-3. The content mdmsafsaaggit
+3. The content mdmsafsaaggitdfkjshdshfskddfjasdfjv
 
 ###  What is it called when you give an element extra information?
 
