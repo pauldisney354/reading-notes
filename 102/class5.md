@@ -11,7 +11,7 @@ The three main parts of an HTML element are:
 
 1. The opening tag
 2. The closing tag
-3. The content tag
+3. The content mdmsafsaaggit
 
 ###  What is it called when you give an element extra information?
 
@@ -19,4 +19,4 @@ The three main parts of an HTML element are:
 
 ### What is a semantic element?
 
-- A semantic element is an element that clearly describes its meaning to both the browser and the developer. An example would be <header>. It tells the browser and developers that it contains introductory content or navigation links. fdksakldfjsajfla
+- A semantic element is an element that clearly describes its meaning to both the browser and the developer. An example would be <header>. It tells the browser and developers that it contains introductory content or navigation links. 
