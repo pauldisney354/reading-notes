@@ -9,7 +9,7 @@ Cloning is downloading the project so you can work on it locally, while still be
 
 ##  What is the command to track and stage files?
 
-Thr command to track and stage files is: 
+The command to track and stage files is: 
 
 - $ git add .
 
