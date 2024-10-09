@@ -11,8 +11,9 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Read:03 - Revisions and the Cloud](102/class4.md)
 - [Read:04 - Structure web pages with HTML](102/class5.md)
 - [Read:05 - Design web pages with CSS](102/class6.md)
-- [class7](102/class7.md)
+- [Read: 06 - Dynamic web pages with JavaScript](102/class7.md)
 - [class8](102/class8.md)
+- [class9](102/class9.md)
 
 ### 201
 #### Code 201 Reading Notes
