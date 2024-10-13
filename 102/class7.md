@@ -1,17 +1,18 @@
-### Dynamic web pages with JavaScript
+### Programming with JavaScript
 
-#### What are variables in JavaScript?
+#### What is control flow?
 
-Variables in Javascript are containers used to store data values. You can use them to hold numbers, text, or other types of information.
+control flow is the order in which your code runs. It's how you direct traffic in your code to make decisinons or repeat actions.
 
-#### What does it mean to declare a variable?
+#### What is a JavaScript function?
 
-To declare a variable means to create a named storage location that can hold a value.
+A JavaScript function is a block of code that performs a specific task.
 
-#### What is an “assignment” operator, and what does it do?
+#### What does it mean to invoke - or call - a function?
 
-"assingment" operators are represented by using the (***=***) symbol. Asssingnment operators are used to give a variable a value. It puts the value on the right side into the variable on the left side.
+To invoke or call a function means using it. You call a function by writing its name with parentheses ().
+When you call it, the function runs, and the instructions inside it are executed.
 
-#### What is information received from the user called?
+#### What are the parenthesis () for when you define a function?
 
-Information from the user is called ***input***. This can be captured through prompts or form fields.
+The parenthesis are where you would put specific information. The parenthesis let you provide this information to the function. The parenthesis are where you pass any *needed* information.

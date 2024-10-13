@@ -1,18 +1,17 @@
-### Programming with JavaScript
+### Operators and Loops
 
-#### What is control flow?
+#### What is an expression in JavaScript?
 
-control flow is the order in which your code runs. It's how you direct traffic in your code to make decisinons or repeat actions.
+An ***expression*** in JavaScript is a piece of code that produces a value.
 
-#### What is a JavaScript function?
+#### Why would we use a loop in our code?
 
-A JavaScript function is a block of code that performs a specific task.
+We would use a loop in our code when we want to reapeat a set of actions multiple times without having to write the same code over and over.
 
-#### What does it mean to invoke - or call - a function?
+#### When does a for loop stop executing?
 
-To invoke or call a function means using it. You call a function by writing its name with parentheses ().
-When you call it, the function runs, and the instructions inside it are executed.
+A for loop runs as long as the condition is true. It stops executing when the condition becomes false. If you set a for loop to run 5 times. It stops after the 5th run because the condition becomes false.
 
-#### What are the parenthesis () for when you define a function?
+#### How many times will a while loop execute?
 
-The parenthesis are where you would put specific information. The parenthesis let you provide this information to the function. The parenthesis are where you pass any *needed* information.
+A while loop will execute as long as its condition stays true. It can run forever until you update something inside the loop to make sure it stops eventually.

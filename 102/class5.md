@@ -1,22 +1,21 @@
-# Structure web pages with HTML
+# Design web pages with CSS
 
-### What is HTML and why do we use it?
+### What is the purpose of CSS?
 
-1. HTML is the basic language used to create and structure web pages. It acts like the skeleton of a website. 
-2. We use HTML because it tells web browsers how to display and arrange elements on a page. It's esssential for building the outline to a website so the content can be presented in a clear and user-friendly way.
+The purpose of CSS is to control the apperance of a website by changing colors, fonts, layouts and spacing to make a website look better.
 
-### What are the 3 main parts of an HTML element?
+### What are the three ways to insert CSS into your project?
 
-The three main parts of an HTML element are:
+1. Inline: Adds CSS directly *within* an HTML element using the style attribute.
 
-1. The opening tag
-2. The closing tag
-3. The content
+2. Internal: Place CSS rules inside a style tag within the head section of your HTML document.
 
-###  What is it called when you give an element extra information?
+3. External: Link to an external .css file using the link tag in the HTML document.
 
-- The extra information that you give an element is called an **atttribute**
+### Write an example of a CSS rule that would give all <p> elements red text.
 
-### What is a semantic element?
+#### Example of a CSS rule that would give all <p> elements red text:
 
-- A semantic element is an element that clearly describes its meaning to both the browser and the developer. An example would be <header>. It tells the browser and developers that it contains introductory content or navigation links. 
+p {
+    color: red;
+}

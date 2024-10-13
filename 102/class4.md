@@ -1,24 +1,22 @@
-# Revisions and the Cloud
-### What is Version Control?
+# Structure web pages with HTML
 
-Version Control is a system that manages changes to documents, source code, or other collections of information over time.
+### What is HTML and why do we use it?
 
-### What is cloning in Git?
+1. HTML is the basic language used to create and structure web pages. It acts like the skeleton of a website. 
+2. We use HTML because it tells web browsers how to display and arrange elements on a page. It's esssential for building the outline to a website so the content can be presented in a clear and user-friendly way.
 
-Cloning is downloading the project so you can work on it locally, while still being connected to the original source for updates or collaboration.
+### What are the 3 main parts of an HTML element?
 
-###  What is the command to track and stage files?
+The three main parts of an HTML element are:
 
-The command to track and stage files is: 
+1. The opening tag
+2. The closing tag
+3. The content
 
-- $ git add .
+###  What is it called when you give an element extra information?
 
-### What is the command to take a snapshot of your changed files?
+- The extra information that you give an element is called an **atttribute**
 
-The command to take a snapshot is: 
-- $ git commit -a
+### What is a semantic element?
 
-### What is the command to send your changed files to Github?
-
-The command to send your changed files to GitHub is:
-- $ git push origin main
+- A semantic element is an element that clearly describes its meaning to both the browser and the developer. An example would be <header>. It tells the browser and developers that it contains introductory content or navigation links. 

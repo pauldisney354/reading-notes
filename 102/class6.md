@@ -1,21 +1,17 @@
-# Design web pages with CSS
+### Dynamic web pages with JavaScript
 
-### What is the purpose of CSS?
+#### What are variables in JavaScript?
 
-The purpose of CSS is to control the apperance of a website by changing colors, fonts, layouts and spacing to make a website look better.
+Variables in Javascript are containers used to store data values. You can use them to hold numbers, text, or other types of information.
 
-### What are the three ways to insert CSS into your project?
+#### What does it mean to declare a variable?
 
-1. Inline: Adds CSS directly *within* an HTML element using the style attribute.
+To declare a variable means to create a named storage location that can hold a value.
 
-2. Internal: Place CSS rules inside a style tag within the head section of your HTML document.
+#### What is an “assignment” operator, and what does it do?
 
-3. External: Link to an external .css file using the link tag in the HTML document.
+"assingment" operators are represented by using the (***=***) symbol. Asssingnment operators are used to give a variable a value. It puts the value on the right side into the variable on the left side.
 
-### Write an example of a CSS rule that would give all <p> elements red text.
+#### What is information received from the user called?
 
-#### Example of a CSS rule that would give all <p> elements red text:
-
-p {
-    color: red;
-}
+Information from the user is called ***input***. This can be captured through prompts or form fields.
