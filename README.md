@@ -5,15 +5,15 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 ## Table of Contents
 ### 102
 #### Code 102 Reading Notes
-- [Lab: 01b Learning Markdown](102/class1.md)
-- [Read: 01 Learning Markdown](102/class2.md)
-- [Read: 02 The Coder's Computer](102/class3.md)
-- [Read: 03 - Revisions and the Cloud](102/class4.md)
-- [Read: 04 - Structure web pages with HTML](102/class5.md)
-- [Read: 05 - Design web pages with CSS](102/class6.md)
-- [Read: 06 - Dynamic web pages with JavaScript](102/class7.md)
-- [Read: 07 - Programming with JavaScript](102/class8.md)
-- [Review: Class 08 - Operators and Loops](102/class9.md)
+- [Lab: 01b Learning Markdown](102/growth-mindset.md)
+- [Read: 01 Learning Markdown](102/class1.md)
+- [Read: 02 The Coder's Computer](102/class2.md)
+- [Read: 03 - Revisions and the Cloud](102/class3.md)
+- [Read: 04 - Structure web pages with HTML](102/class4.md)
+- [Read: 05 - Design web pages with CSS](102/class5.md)
+- [Read: 06 - Dynamic web pages with JavaScript](102/class6.md)
+- [Read: 07 - Programming with JavaScript](102/class7.md)
+- [Review: Class 08 - Operators and Loops](102/class8.md)
 
 ### 201
 #### Code 201 Reading Notes
