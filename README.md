@@ -13,7 +13,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Read: 05 - Design web pages with CSS](102/class5.md)
 - [Read: 06 - Dynamic web pages with JavaScript](102/class6.md)
 - [Read: 07 - Programming with JavaScript](102/class7.md)
-- [Review: Class 08 - Operators and Loops](102/class8.md)
+- [Read: 08 - Operators and Loops](102/class8.md)
 
 ### 201
 #### Code 201 Reading Notes
