@@ -23,7 +23,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 #### Code 201 Reading Notes
 
 - [AI and Prompt Engineering](201/prompt-engineering.md)
-- [class1](201/class1.md)
+- [Class 01 - Setup Developer Toolbelt](201/class1.md)
 - [class2](201/class2.md)
 - [class3](201/class3.md)
 - [class4](201/class4.md)
