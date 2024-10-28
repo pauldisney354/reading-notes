@@ -4,7 +4,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 
 ## Table of Contents
 
-### 102
+### Code 102 - Intro to Software Development
 
 #### Code 102 Reading Notes
 
@@ -18,7 +18,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Read: 07 - Programming with JavaScript](102/class7.md)
 - [Read: 08 - Operators and Loops](102/class8.md)
 
-### 201
+### Code 201 - Foundations of Software Development
 
 #### Code 201 Reading Notes
 
@@ -37,3 +37,11 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [class13](201/class13.md)
 - [class14](201/class14.md)
 - [class15](201/class15.md)
+
+### Code 301 - Intermediate Software Development
+
+### Code 301 Reading Notes
+
+### Code 401 - Advanced Software Development
+
+### Code 401 Reading Notes
