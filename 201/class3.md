@@ -46,3 +46,15 @@ let c = false;
 
 // Evaluate this
 (a + c) + b;
+
+Result: "10dog".
+
+Explanation: a + c evaluates to 10 + 0 (since false converts to 0), which is 10. Then, 10 + b results in "10dog" due to JavaScript's type coercion, converting 10 to a string when concatenated with "dog".
+
+Conditional Statements
+
+Example: A conditional statement can check if a user is logged in to a site. If logged in, display their profile; if not, show a login prompt.
+
+Loops in JavaScript
+
+Example: A loop is useful for iterating through an array of user comments to display each one on a webpage.
