@@ -46,3 +46,5 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 ### Code 401 - Advanced Software Development
 
 #### Code 401 Reading Notes
+
+[def]: 201/class3.md
