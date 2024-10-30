@@ -25,7 +25,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [AI and Prompt Engineering](201/prompt-engineering.md)
 - [Class 01 - Setup Developer Toolbelt](201/class1.md)
 - [Class 02 - Introduction To Web Development](201/class2.md)
-- [Class 03 - Lists, The Box Model, and Loops](201/class3.md)
+- [Class 03 - Lists The Box Model and Loops](201/class3.md)
 - [class4](201/class4.md)
 - [class5](201/class5.md)
 - [class6](201/class6.md)
@@ -46,5 +46,3 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 ### Code 401 - Advanced Software Development
 
 #### Code 401 Reading Notes
-
-[def]: 201/class3.md
