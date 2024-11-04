@@ -56,6 +56,7 @@ In “The Box Model,” Margin and Padding are characters who ensure balance and
 5. ++: Increments by 1, e.g., a++ is shorthand for a = a + 1.
 
 ### Code Evaluation
+
 For this code snippet:
 
 javascript
