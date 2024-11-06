@@ -11,7 +11,7 @@
     - Using `aria-labels` or `longdesc` attributes for more detailed descriptions when necessary.
 3. **Use case for the `figure` element**  
     The `<figure>` element is useful when an image or visual content (like a chart) is part of the main content and needs a caption. For instance, in an educational article with a labeled diagram, `<figure>` can group the image and its caption together:
-    
+
     `<figure>
         <img src="anatomy-diagram.png" alt="Anatomy Diagram">
         <figcaption>Diagram of the human anatomy</figcaption>
@@ -54,3 +54,8 @@
     
     -   **Letter-spacing**: Adds space between each character.
     -   **Padding**: Adds space around the entire element, creating separation from surrounding content.
+
+    ### Things I Want to Know More About
+- How do different browsers handle `alt` text display?
+- What are some common color contrast guidelines for accessibility?
+- How can I use SVG animations effectively on a webpage?
