@@ -28,7 +28,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 03 - Lists, The Box Model, and Loops](201/class3.md)
 - [Class 04 - Links, Layouts, and Functions](201/class4.md)
 - [Class 05 - Images, Color, Text, and More Work With Functions](201/class5.md)
-- [class6](201/class6.md)
+- [Class 06 - Domain Modeling, Intro to the DOM, and Object Literal Notation](201/class6.md)
 - [class7](201/class7.md)
 - [class8](201/class8.md)
 - [class9](201/class9.md)
