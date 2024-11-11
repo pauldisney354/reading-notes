@@ -56,6 +56,7 @@
     -   **Padding**: Adds space around the entire element, creating separation from surrounding content.
 
     ### Things I Want to Know More About
+    
 - How do different browsers handle `alt` text display?
 - What are some common color contrast guidelines for accessibility?
 - How can I use SVG animations effectively on a webpage?
