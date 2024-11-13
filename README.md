@@ -29,7 +29,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 04 - Links, Layouts, and Functions](201/class4.md)
 - [Class 05 - Images, Color, Text, and More Work With Functions](201/class5.md)
 - [Class 06 - Domain Modeling, Intro to the DOM, and Object Literal Notation](201/class6.md)
-- [class7](201/class7.md)
+- [Class 07 - HTML Tables and JS Constructor Functions](201/class7.md)
 - [class8](201/class8.md)
 - [class9](201/class9.md)
 - [class10](201/class10.md)
