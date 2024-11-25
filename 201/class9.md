@@ -82,3 +82,65 @@ Example:
 -   **Event Capturing**: The event starts at the root and captures down to the target element. This method can be used for earlier interception of events.
 
 In most cases, you'll use event bubbling, but in some scenarios, event capturing might be needed for specific use cases.
+
+### 1. **What is a JavaScript Event?**
+
+-   A JavaScript event is an action or occurrence recognized by the browser that can be handled using JavaScript. Events are triggered by the user (e.g., clicking, typing, scrolling), the browser (e.g., page load, resize), or an element's state (e.g., focus, hover). Events allow developers to add interactivity to web pages.
+
+----------
+
+### 2. **What 2 arguments do we need to pass into the `addEventListener()` method for it to run correctly?**
+
+-   **Event Type:** A string representing the type of event to listen for (e.g., `"click"`, `"submit"`, `"mouseover"`).
+-   **Callback Function:** A function to execute when the event occurs. This function contains the logic or behavior you want to apply when the event is triggered.
+
+`const button = document.querySelector('button');
+button.addEventListener('click', () => {
+    console.log('Button clicked!');
+});` 
+
+----------
+
+### 3. **What is a Callback Function?**
+
+-   A callback function is a function passed as an argument to another function, to be executed later, typically after a certain action or event. In the context of `addEventListener`, it is the function called when the specified event is triggered.
+
+`function handleClick() {
+    console.log('Button was clicked!');
+}
+
+const button = document.querySelector('button');
+button.addEventListener('click', handleClick);` 
+
+----------
+
+### 4. **An HTML form is used to collect ________ input.**
+
+-   **User** input.  
+    Forms are designed to gather data from users through various input elements like text fields, checkboxes, radio buttons, and dropdowns.
+
+----------
+
+### 5. **An `<input>` element can be displayed in many ways, depending on the _______ attribute.**
+
+-   **Type** attribute.  
+    The `type` attribute determines how the `<input>` element is rendered and behaves (e.g., `"text"`, `"password"`, `"email"`, `"number"`, `"checkbox"`, `"radio"`, etc.).
+
+`<input type="text" placeholder="Enter text">
+<input type="password" placeholder="Enter password">
+<input type="checkbox">` 
+
+----------
+
+### 6. **What does `event.preventDefault()` do?**
+
+-   The `event.preventDefault()` method stops the default action of an event from occurring. For example:
+    -   Preventing a form submission from refreshing the page.
+    -   Preventing a link click from navigating to another page.
+
+`const form = document.querySelector('form');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault(); // Stops the form's default submission behavior
+    console.log('Form submission prevented.');
+});` 
