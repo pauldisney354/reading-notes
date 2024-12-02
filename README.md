@@ -32,7 +32,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 07 - HTML Tables and JS Constructor Functions](201/class7.md)
 - [Class 08 - Layout with CSS](201/class8.md)
 - [Class 09 - Forms and Events](201/class9.md)
-- [class10](201/class10.md)
+- [Class 10 - Debugging and Error Handling](201/class10.md)
 - [class11](201/class11.md)
 - [class12](201/class12.md)
 - [class13](201/class13.md)
