@@ -47,3 +47,55 @@
 ### 5. **Other Embedding Technologies**
 
 Other embedding technologies could refer to using `<iframe>` for embedding other web pages or content like maps, videos, or even games, and the use of `<object>` or `<embed>` elements for embedding different kinds of media, like PDFs or Flash content (though Flash is now obsolete).
+
+### 1. **What is Object-Oriented Programming (OOP)?**
+
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects. Objects are instances of classes, which can contain data (attributes) and methods (functions) that operate on the data. OOP emphasizes principles like **encapsulation** (bundling data and methods), **inheritance** (reusing code through hierarchical relationships), **polymorphism** (allowing objects to be treated as instances of their parent class), and **abstraction** (hiding complex details while exposing only the necessary parts). OOP helps in organizing code in a more modular and reusable way, promoting better maintainability and scalability.
+
+### 2. **To use CSS Grid, the parent element (container) must have the `display` property set to what value?**
+
+To use CSS Grid, the parent element must have the `display` property set to `grid`:
+
+
+`.container {
+  display: grid;
+}` 
+
+### 3. **The Array method of _______ adds one or more elements to the end of an array.**
+
+The Array method of **`push()`** adds one or more elements to the end of an array:
+
+
+`let arr = [1, 2, 3];
+arr.push(4, 5);  // arr becomes [1, 2, 3, 4, 5]` 
+
+### 4. **The Array method of _______ removes the last element from an array.**
+
+The Array method of **`pop()`** removes the last element from an array:
+
+
+`let arr = [1, 2, 3];
+arr.pop();  // arr becomes [1, 2]` 
+
+### 5. **The Array method of _______ removes the first element from an array.**
+
+The Array method of **`shift()`** removes the first element from an array:
+
+`let arr = [1, 2, 3];
+arr.shift();  // arr becomes [2, 3]` 
+
+### 6. **The Array method of _______ adds one or more elements to the beginning of an array.**
+
+The Array method of **`unshift()`** adds one or more elements to the beginning of an array:
+
+`let arr = [1, 2, 3];
+arr.unshift(0);  // arr becomes [0, 1, 2, 3]` 
+
+### 7. **The Array method of _______ changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.**
+
+The Array method of **`splice()`** changes the contents of an array by removing, replacing, or adding elements:
+
+`let arr = [1, 2, 3, 4];
+arr.splice(1, 2, 5, 6);  // arr becomes [1, 5, 6, 4]` 
+
+In this example, `splice(1, 2, 5, 6)` starts at index 1, removes 2 elements, and adds `5` and `6` in their place.
