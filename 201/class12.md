@@ -60,3 +60,64 @@
     -   Adding dynamic and interactive data visualizations.
     -   Simplifying complex data presentations like cookie sales or guessing game scores with bar or pie charts.
     -   Making applications more appealing and professional-looking.
+
+
+### **What is HTML `<canvas>`?**
+
+The `<canvas>` element is an HTML5 feature that provides a drawable area on a webpage, enabling developers to create graphics, animations, and dynamic visualizations using JavaScript. The size of the canvas can be customized using `width` and `height` attributes, and its content is manipulated via the Canvas API.  
+Examples of use include:
+
+-   Drawing shapes and lines
+-   Rendering images
+-   Creating interactive data visualizations like graphs or game
+
+----------
+
+### **What is a CDN?**
+
+A **Content Delivery Network (CDN)** is a system of distributed servers designed to deliver content (like scripts, stylesheets, or libraries) quickly and efficiently to users based on their geographic location. It allows projects to reference hosted versions of libraries or frameworks, reducing the need to download and host the files locally.
+
+**Advantages of using a CDN:**
+
+-   Faster load times by leveraging geographically distributed servers.
+-   Reduced server bandwidth and costs.
+-   Automatic updates to the latest stable version (if desired).
+
+**Example of using a CDN:**
+
+
+`<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>` 
+
+----------
+
+### **What are some ways to bring third-party libraries into our projects?**
+
+1.  **Using a CDN:**
+    
+    -   Include a `<script>` tag in your HTML to load the library from a CDN.
+    -   Best for small projects or static websites.
+    
+    
+    `<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>` 
+    
+2.  **Installing via npm/yarn:**
+    
+    -   Use a package manager like npm or Yarn to download the library into your project for version control and easy updates.
+    -   Ideal for large projects using module bundlers (like Webpack or Vite).
+        
+    `npm install chart.js` 
+    
+    `import Chart from 'chart.js';` 
+    
+3.  **Downloading and Hosting Locally:**
+    
+    -   Download the library files manually and include them in your project directory.
+    -   Useful when you want complete control over library versions or for offline use.
+    
+    `<script src="lib/chart.js"></script>` 
+    
+4.  **Using a Framework's Ecosystem:**
+    
+    -   Some libraries are integrated into frameworks like Angular, React, or Vue as plugins or modules, enabling easy integration.
+    
+    `npm install react-chartjs-2`
