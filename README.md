@@ -37,6 +37,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 12 - Canvas and ChartJS](201/class12.md)
 - [Class 13 - Introduction to Persistence with Local Storage](201/class13.md)
 - [Class 14 - Documentation, Project Selection, & Team Workflow](201/class14.md)
+- [Psychological Safety](201/psychological-safety.md)
 - [class15](201/class15.md)
 
 ### Code 301 - Intermediate Software Development
