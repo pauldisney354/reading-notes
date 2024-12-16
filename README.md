@@ -36,7 +36,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 11 - Audio and Video in HTML; Domain Modeling Revisited](201/class11.md)
 - [Class 12 - Canvas and ChartJS](201/class12.md)
 - [Class 13 - Introduction to Persistence with Local Storage](201/class13.md)
-- [class14](201/class14.md)
+- [Class 14 - Documentation, Project Selection, & Team Workflow](201/class14.md)
 - [class15](201/class15.md)
 
 ### Code 301 - Intermediate Software Development
