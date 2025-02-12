@@ -43,6 +43,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 ### Code 301 - Intermediate Software Development
 
 #### Code 301 Reading Notes
+- [Class 01 - Introduction to React and Components](301/class1.md)
 
 ### Code 401 - Advanced Software Development
 
