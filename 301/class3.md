@@ -1,4 +1,4 @@
-Here’s a breakdown of your reading assignment on **Passing Functions as Props** in React:
+**Passing Functions as Props** in React:
 
 ---
 
