@@ -46,6 +46,9 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 01 - Introduction to React and Components](301/class1.md)
 - [Class 02 - State and Props](301/class2.md)
 - [Class 03 - Passing Functions as Props](301/class3.md)
+- [Class 04 - React and Forms](301/class4.md)
+- [Class 05 - Putting it all together](301/class5.md)
+- [Class 06 - REST](301/class6.md)
 ### Code 401 - Advanced Software Development
 
 #### Code 401 Reading Notes
