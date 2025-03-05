@@ -59,3 +59,65 @@
     
     -   `map()` **takes a function as an argument** and applies it to each element in an array.
     -   It **returns a new array** with transformed elements.
+
+    ### **Conditional Rendering in React**  
+Conditional rendering in React refers to rendering different components or elements based on a condition. This helps create dynamic UI updates based on state or props.
+
+### **What is Browser Router?**  
+`BrowserRouter` is a component from `react-router-dom` that enables client-side routing in a React application. It listens to the browser's URL changes and renders components accordingly without needing a full page reload.
+
+### **Ternary Operator for Conditional Rendering**  
+A ternary operator is a concise way to write an `if/else` condition:
+
+```js
+// Regular if/else conditional
+if(conditionIsTrue){
+  return 'it is true';
+} else {
+  return 'it is false';
+}
+
+// Equivalent ternary statement
+return conditionIsTrue ? 'it is true' : 'it is false';
+```
+
+### **Conditionally Rendering a Component in React**  
+Using a ternary operator:
+```jsx
+class Parent extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      displayChild: false
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.displayChild ? <Child /> : ''}
+      </div>
+    );
+  }
+}
+```
+A better way to write this is by using the `&&` operator:
+```jsx
+class Parent extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      displayChild: false
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.displayChild && <Child />}
+      </div>
+    );
+  }
+}
+```
+This works because in JavaScript, `false && <Component />` evaluates to `false`, while `true && <Component />` evaluates to `<Component />`.
