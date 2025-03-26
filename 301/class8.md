@@ -39,3 +39,39 @@
 11. **What status code does a successful DELETE request return?**  
     - **204 No Content** (if deletion is successful with no response body)  
     - **200 OK** (if a response body is included)
+    ---
+1. **What is an API?**  
+   - An **API (Application Programming Interface)** is a set of rules that allows different software applications to communicate with each other. It defines how requests and responses should be structured, enabling data exchange between clients and servers.
+
+2. **Why do we need a server?**  
+   - A **server** handles requests from clients, processes data, and sends responses. It is needed to:  
+     - Store and manage data  
+     - Handle authentication and security  
+     - Process logic before sending data to the client  
+     - Serve APIs for front-end applications
+
+3. **What do we keep in our `.env` file?**  
+   - The `.env` file stores **environment variables** such as:  
+     - API keys  
+     - Database credentials  
+     - Port numbers  
+     - Secret keys for authentication  
+     - Any other sensitive or configurable information
+
+4. **Nodemon will automatically detect changes that we make to all the files in our server, however, if we make a change to THIS file, we must restart nodemon for it to take effect.**  
+   - **The `.env` file** is the file that requires a restart when modified because environment variables are only loaded when the server starts.
+
+5. **True or False: all APIs require a key.**  
+   - **False.** Not all APIs require a key. Some public APIs are open for use without authentication, while others require an API key for security and tracking.
+
+6. **Axios API Call Explanation:**  
+   - The provided axios call:  
+     ```javascript
+     const url = `http://urlToAPI/?key=${process.env.MY_API_KEY}&city=seattle`;
+     const axiosResults = await axios.get(url);
+     console.log(axiosResults.data);
+     ```
+   - Key takeaways:  
+     - `await axios.get(url)` makes an asynchronous request.  
+     - The function using this must be **async**.  
+     - `axiosResults.data` contains the actual response data (not the full axios object).  
