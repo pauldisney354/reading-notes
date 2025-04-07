@@ -157,39 +157,6 @@ module.exports = { add };
 -   MDN Web Docs – [Immutability](https://developer.mozilla.org/en-US/docs/Glossary/Immutable)
     
 -   [JavaScript.info on Modules](https://javascript.info/modules-intro)
-    
-
-----------
-
-Here's a clean, structured answer to your questions — organized for clarity and enriched for learning:
-
-----------
-
-### Step 1: Markdown Table
-
-Expert(s)
-
-Web Developer; JavaScript Engineer; Node.js Backend Developer
-
-Possible Keywords
-
-DRY, modular code, module.exports, require, CommonJS, ES6 modules, async/await, .then(), .catch(), Promises, error handling, axios, JavaScript best practices, asynchronous JavaScript, callback hell, function scope, server-side modularization, code reuse, maintainability
-
-Question
-
-Explain DRY code, the value of modularization, how Promises work, and compare `.then()`/`.catch()` with `async/await` syntax for asynchronous operations
-
-Plan
-
-As a **JavaScript/Node.js Developer**, I’ll break down these concepts step by step, using examples from your prompt, clarify distinctions, and explain _why_ we use these approaches. Frameworks used include clean code principles, asynchronous programming models, and CommonJS module structure.
-
-----------
-
-> ⏯️ In this response:  
-> ✅ DRY & modular code  
-> ✅ What a Promise is  
-> ✅ Differences between `async/await` and `.then()/.catch()`  
-> ✅ How to modularize functions in Node.js
 
 ----------
 
@@ -442,9 +409,6 @@ stuff.doSomethingElse();
 -   📦 [CommonJS vs ES6 Modules](https://www.google.com/search?q=commonjs+vs+es6+modules+nodejs) – module systems comparison
     
 -   🧪 [How to Unit Test Modular Functions](https://www.google.com/search?q=unit+testing+modular+functions+in+javascript) – for TDD fans
-    
-
-### You may also enjoy
 
 -   🐢 [Callback Hell Examples](https://www.google.com/search?q=callback+hell+examples+and+solutions) – why Promises were born
     
