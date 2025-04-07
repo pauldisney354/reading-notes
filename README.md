@@ -51,6 +51,7 @@ Hello, my name is Paul Disney, and I am excited to train in this Coding Dojo! Th
 - [Class 06 - REST](301/class6.md)
 - [Class 07 - NODE.JS](301/class7.md)
 - [Class 08 - APIs](301/class8.md)
+- [Class 09 - Functional Programming](301/class9.md)
 ### Code 401 - Advanced Software Development
 
 #### Code 401 Reading Notes
