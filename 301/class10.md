@@ -136,4 +136,111 @@ The `debugger;` statement pauses script execution just like a breakpoint. It's u
     
 -   Is there a way to **trace a stack overflow** to its origin automatically?
     
+Here's a structured set of notes for your reading assignment based on the new material. It's ready to add as a new page and link in your course's Table of Contents.
 
+----------
+
+## 🧠 Caching & Debugging – Reading Notes
+
+**📌 Why this topic matters**  
+As a developer, understanding **caching** and **debugging** helps optimize performance and streamline error resolution. Caching improves efficiency by avoiding redundant data retrievals, while debugging techniques help isolate and fix issues. Mastering both is essential for building scalable, fast, and bug-resistant applications.
+
+----------
+
+### 📚 Reading Assignment: Questions & Answers
+
+#### ✅ What is a cache?
+
+A **cache** is a temporary storage location that holds frequently accessed data so it can be quickly retrieved without having to re-fetch it from the original source (e.g., API, database).
+
+#### ✅ What does a cache hit mean? What does a cache miss mean?
+
+-   **Cache hit**: The requested data is **already in the cache**, so it's retrieved quickly.
+    
+-   **Cache miss**: The requested data is **not in the cache**, so the app must fetch it from the original source, and then optionally store it in the cache for future use.
+    
+
+#### ✅ What does the word `debugger` do in your code?
+
+The `debugger;` statement **pauses execution** of JavaScript at that point, as if a manual breakpoint was placed. This lets the developer inspect variables, call stack, and application state at that moment.
+
+```js
+function test() {
+  let x = 10;
+  debugger;
+  console.log(x);
+}
+
+```
+
+#### ✅ What is a breakpoint?
+
+A **breakpoint** is a pause in code execution triggered within developer tools (like Chrome DevTools). It lets you step through code line by line to inspect variables and control flow.
+
+----------
+
+### 🛠️ 5 Different Debugging Tools
+
+1.  **Chrome DevTools** – Built-in suite in Chrome for inspecting and debugging web apps.
+    
+2.  **VS Code Debugger** – Integrated debugger in the editor with breakpoints and variable watchers.
+    
+3.  **Linting Tools (ESLint)** – Highlight syntax and logic issues before code runs.
+    
+4.  **Console Logging (`console.log`)** – Old-school, quick way to print and inspect values.
+    
+5.  **Postman** – Helps debug and test API calls, responses, and headers.
+    
+
+----------
+
+### 💾 Code Example: Adding to the Cache
+
+```js
+if (inMemoryDB[ingredient] !== undefined) {
+  // Cache hit – return cached data
+  return inMemoryDB[ingredient];
+} else {
+  // Cache miss – fetch from API, then cache it
+  inMemoryDB[ingredient] = recipeArr;
+}
+
+```
+
+----------
+
+### 🧭 Tracking Cache Age with Timestamps
+
+```js
+function Recipe(obj) {
+  // Add timestamp when data is stored
+  this.dateAdded = Date.now();
+}
+
+```
+
+To check if the data is **fresh or stale**:
+
+```js
+if (cache[key] && (Date.now() - cache[key].dateAdded < 50000)) {
+  console.log('Cache hit');
+} else {
+  // Cache miss – clear and refresh
+  console.log('Cache miss or stale');
+}
+
+```
+
+This approach avoids using outdated data and ensures performance stays sharp without compromising data accuracy.
+
+----------
+
+## 🌱 Things I Want to Know More About
+
+-   What are some libraries that simplify in-memory caching for React or Node.js?
+    
+-   Is localStorage ever appropriate for cache purposes?
+    
+-   How do service workers play a role in caching and offline behavior?
+    
+-   How can you visualize the call stack in real time with debugging tools?
